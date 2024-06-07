@@ -10,7 +10,9 @@ El proyecto se compone de los siguientes archivos:
 - Derivados.h y Derivados.cpp: Contienen las definiciones de las clases derivadas Libro, Revista y Comic, que heredan de Item.
 - Biblioteca.h y Biblioteca.cpp: Definen la clase Biblioteca, que gestiona una colección de artículos Item.
 - main.cpp: Contiene la función main que demuestra el uso de la clase Biblioteca y sus funcionalidades.
-
+- Libro.h y Libro.cpp
+- Revista.h y Revista.cpp
+- Comic.h y Comic.cpp
 ## Descripción de las Clases
 
 ### Clase `Item`
