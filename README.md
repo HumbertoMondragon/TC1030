@@ -15,7 +15,7 @@ El proyecto se compone de los siguientes archivos:
 - Comic.h y Comic.cpp
 ## Descripción de las Clases
 
-### Clase `Item`
+### Clase Item
 
 La clase Item es una clase base abstracta que define la interfaz común para todos los tipos de artículos en la biblioteca. Contiene métodos virtuales puros que deben ser implementados por las clases derivadas.
 
@@ -38,8 +38,11 @@ La clase Biblioteca gestiona una colección de artículos Item. Tiene un límite
 
 ### Compilación
 
-Para compilar el programa, usa un compilador de C++ (como `g++`). Ejecuta el siguiente comando en la terminal:
+Para compilar el programa, usa un compilador de C++ (como g++). Ejecuta el siguiente comando en la terminal:
 
 g++ main.cpp Biblioteca.cpp Derivados.cpp -o biblioteca
 
 ## ¿Qué haría que no funcionara?
+La clase Biblioteca tiene un límite máximo de 100 artículos, por lo que agregar más haría que no funcionara.
+Los objetos se tienen que crear con new
+Para el nombre se necesita un string, por lo que si el usuario pone otro tipo de dato no funcionaría
