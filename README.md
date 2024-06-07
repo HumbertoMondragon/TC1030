@@ -6,13 +6,11 @@ Este proyecto implementa un sistema de gestión de una biblioteca utilizando C++
 
 El proyecto se compone de los siguientes archivos:
 
-- Item.h y Item.cpp: Definen la clase base abstracta Item y sus métodos virtuales.
-- Derivados.h y Derivados.cpp: Contienen las definiciones de las clases derivadas Libro, Revista y Comic, que heredan de Item.
-- Biblioteca.h y Biblioteca.cpp: Definen la clase Biblioteca, que gestiona una colección de artículos Item.
+- Item.h Definen la clase base abstracta Item y sus métodos virtuales.
+- Derivados.h  Contienen las definiciones de las clases derivadas Libro, Revista y Comic, que heredan de Item.
+- Biblioteca.h Definen la clase Biblioteca, que gestiona una colección de artículos Item.
 - main.cpp: Contiene la función main que demuestra el uso de la clase Biblioteca y sus funcionalidades.
-- Libro.h y Libro.cpp
-- Revista.h y Revista.cpp
-- Comic.h y Comic.cpp
+
 ## Descripción de las Clases
 
 ### Clase Item
