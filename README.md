@@ -46,3 +46,19 @@ g++ main.cpp Biblioteca.cpp Derivados.cpp -o biblioteca
 La clase Biblioteca tiene un límite máximo de 100 artículos, por lo que agregar más haría que no funcionara.
 Los objetos se tienen que crear con new
 Para el nombre se necesita un string, por lo que si el usuario pone otro tipo de dato no funcionaría
+
+## Documentación
+En Biblioteca.cpp utilizo un operador terciario '?'
+
+Según la documentación
+
+'Evaluates its first operand, and, if the resulting value is not equal to zero, evaluates its second operand. Otherwise, it evaluates its third operand, as shown in the following example:
+
+a = b ? c : d;
+is equivalent to:
+
+if (b)
+    a = c;
+else 
+    a = d;'
+https://riptutorial.com/c/example/2158/conditional-operator-ternary-operator
