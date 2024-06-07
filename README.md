@@ -60,5 +60,6 @@ is equivalent to:
 if (b)
     a = c;
 else 
-    a = d;```
+    a = d;
+````
 https://riptutorial.com/c/example/2158/conditional-operator-ternary-operator
