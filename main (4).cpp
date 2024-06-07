@@ -13,11 +13,7 @@ int main() {
 
     biblioteca.mostrarItems();
 
-    if (biblioteca.rentarItem(2)) {
-        cout << "El libro con ID 2 ha sido rentado.\n";
-    } else {
-        cout << "El libro con ID 2 no está disponible para renta.\n";
-    }
+    biblioteca.rentarItem(2);
 
     biblioteca.mostrarItems();
 
