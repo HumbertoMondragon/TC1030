@@ -1,4 +1,4 @@
-# Biblioteca
+# Bibloteca
 
 Este proyecto implementa un sistema de gestión de una biblioteca utilizando C++. La biblioteca puede contener diferentes tipos de artículos (Item), como libros, revistas y cómics. El sistema permite agregar, mostrar, rentar y devolver artículos.
 
