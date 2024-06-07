@@ -61,3 +61,7 @@ else
     a = d;
 ````
 https://riptutorial.com/c/example/2158/conditional-operator-ternary-operator
+
+Cuando creo los apuntadores, uso nullptr
+Según la documentación
+`La palabra clave nullptr representa un valor de puntero nulo. Use un valor de puntero nulo para indicar que un tipo de identificador de objeto, puntero interior o puntero nativo no apunta a un objeto.`
