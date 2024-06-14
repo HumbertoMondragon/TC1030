@@ -1,9 +1,29 @@
+/*
+ *
+ * Proyecto Biblioteca función principal
+* Humberto Mondragón García
+ * A01711912
+ * 14/06/2024
+ * Esta función principal del programa permite la interacción con la biblioteca,
+ * permitiendo al usuario agregar, mostrar, rentar y devolver artículos como
+ * revistas, libros y cómics. Utiliza la clase Biblioteca para gestionar la colección
+ * de artículos y demuestra el uso de polimorfismo al manejar diferentes tipos de artículos.
+ */
+
 #include "Biblioteca.h"
 #include "Derivados.h"
 #include <iostream>
 
 using namespace std;
 
+/**
+ * mostrarMenu muestra el menú de opciones
+ *
+ * Imprime las opciones disponibles para interactuar con la biblioteca.
+ *
+ * @param
+ * @return
+ */
 void mostrarMenu() {
     cout << "1. Agregar item" << endl;
     cout << "2. Mostrar items" << endl;
@@ -12,6 +32,16 @@ void mostrarMenu() {
     cout << "5. Salir" << endl;
 }
 
+/**
+ * main función principal del programa
+ *
+ * Permite la interacción con el usuario para agregar, mostrar, rentar y devolver
+ * artículos en la biblioteca. Demuestra el uso de polimorfismo al manejar diferentes
+ * tipos de artículos derivados de la clase base abstracta Item.
+ *
+ * @param
+ * @return int, código de estado del programa
+ */
 int main() {
     Biblioteca biblioteca;
     int opcion;
@@ -59,7 +89,9 @@ int main() {
                 int id;
                 cout << "Ingresa el ID del item a rentar: ";
                 cin >> id;
-                biblioteca.rentarItem(id);
+                if (!biblioteca.rentarItem(id)) {
+                    cout << "El item no está disponible o no existe.\n";
+                }
                 break;
             }
             case 4: {
